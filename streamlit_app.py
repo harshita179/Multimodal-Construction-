@@ -18,12 +18,14 @@ st.markdown("""
     .main-header {
         font-size: 2.2rem;
         font-weight: 800;
-        color: #0f172a;
+        background: linear-gradient(90deg, #f59e0b, #fb923c, #38bdf8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         margin-bottom: 0.2rem;
     }
     .sub-header {
         font-size: 0.95rem;
-        color: #64748b;
+        color: #94a3b8;
         margin-bottom: 1.5rem;
     }
     .metric-card {
